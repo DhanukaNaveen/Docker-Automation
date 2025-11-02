@@ -1,4 +1,4 @@
-# Use the 22-alpine3.18 version of the Node.js image as the base image
+# Use the 22-alpine3.18 version of the Node.js image as the base image(pull base image from Docker Hub)
 FROM node:22-alpine3.18 
 
 # Set the working directory inside the container to /usr/src/app
